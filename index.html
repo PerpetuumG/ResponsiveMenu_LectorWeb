@@ -6,9 +6,36 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Responsive Menu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin=>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
+    <nav class="nav">
+        <ul class="visible-menu">
+            <li><a href="#">Главная</a></li>
+            <li><a href="#">Компании</a></li>
+            <li><a href="#">Продукция</a></li>
+            <li><a href="#">Команда</a></li>
+            <li><a href="#">Портфолио</a></li>
+            <li><a href="#">Партнеры</a></li>
+            <li><a href="#">Оплата</a></li>
+            <li><a href="#">Доставка</a></li>
+            <li><a href="#">Контакты</a></li>
+
+        </ul>
+        <button class="burger hidden">
+            <svg width="30" height="40">
+                <circle cx="15" cy="10" r="2" fill="#fff"></circle>
+                <circle cx="15" cy="20" r="2" fill="#fff"></circle>
+                <circle cx="15" cy="30" r="2" fill="#fff"></circle>
+            </svg>
+            <div class="burger-count"></div>
+        </button>
+        <ul class="hidden-menu"></ul>
+    </nav>
 
 <script src="js/script.js"></script>
 </body>
